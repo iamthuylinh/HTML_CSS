@@ -1,6 +1,6 @@
 .row1 {
     display: grid;
-    grid-template-columns: 10% 50% 10% 10% 10% 10% ;
+    grid-template-columns: 10% 45% 12% 12% 10% 10% ;
 }
 .row1 img{
     margin: auto;
@@ -18,13 +18,23 @@ text1{
     display: grid;
     grid-template-columns: 33% 33% 34%;
 }
+
 .row4 img{
 width: 95%;
-display: block;
-border-radius: 8%;
-margin: 11%;
-
+border-radius: 5%;
+overflow: hidden;
+margin-right: 10%;
+margin-top: 3%;
 }
+divNgoc{
+    padding-top: 3px;
+}
+.row5 {
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+
+
 
 
 
