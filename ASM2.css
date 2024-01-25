@@ -1,6 +1,6 @@
 .row1 {
     display: grid;
-    grid-template-columns: 10% 45% 12% 12% 10% 10% ;
+    grid-template-columns: 10% 43% 12% 12% 11% 10% ;
 }
 .row1 img{
     margin: auto;
@@ -13,6 +13,19 @@ text1{
 }
 .row2 img{
     width: 100%;
+}
+.row2 .text{
+    position: absolute;
+    width: 70%;
+    font-size:70% ;
+    color: aliceblue;
+    padding-left: 27%;
+}
+.row2 h1{
+    margin-bottom: 5px;
+}
+.row2 div{
+    padding-left: 5%;
 }
 .row4{
     display: grid;
@@ -28,10 +41,14 @@ margin-top: 3%;
 }
 divNgoc{
     padding-top: 3px;
+    margin: auto;
 }
 .row5 {
     display: grid;
     grid-template-columns: 66% 34%;
+}
+body{
+    overflow-x: hidden;
 }
 
 
